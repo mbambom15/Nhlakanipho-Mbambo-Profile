@@ -23,27 +23,45 @@
             <div id="menu-bar">
                 <ul>
                     <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact Me</a></li>
-                    <li class="cv-button"><a href="Nhlakanipho Mbambo.pdf">Download CV</a></li>
                 </ul>
             </div>
         </nav>
+        <button><a href="Nhlakanipho Mbambo.pdf">Download CV</a></button>
     </header>
     <main>
+        <section name="profile-picture">
+            <div>
+                <img src="" width="200px" height="200px" >
+            </div>
+        </section>
+
         <section id="home">
-            <h1>Welcome to my Portfolio</h1>
+            <h1>Nhlakanipho Mbambo</h1>
+            <h3>Aspiring Full Stack Software Developer.</h3>
+            <p>Final Year Computer Science Student, with a passion for innvoative problem solving.</p>
+        </section>
+
+        <section id="about">
+            
 
         </section>
+
 
         <section id="projects">
             <h2>My Projects</h2>
 
         </section>
 
-        <section id="">
+        <section id="skills">
             <h2>Skills</h2>
+
+        </section>
+
+        <section id="certifications">
 
         </section>
 
@@ -52,7 +70,19 @@
             <form>
                 <table>
                     <tr>
-                        <td>Email: mbambom15@gmail.com</td>
+                       <td>Name: </td>
+                       <td><input type="text" name="name" required=""></td>
+                    </tr>
+                    <tr>
+                        <td>Surname: </td>
+                        <td><input type="text" name="surname" required=""></td>
+                    </tr>
+                    <tr>
+                        <td>Email: </td>
+                        <td><input type="email" name="email" required=""></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="message" placeholder="Message..."></textarea></td>
                     </tr>
                 </table>
             </form>

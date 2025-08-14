@@ -65,10 +65,7 @@
   color: #1e3a8a;       /* deeper navy text */
 }
 
-/* Push Download CV to right */
-.cv-button {
-  margin-left: auto;
-}
+
 
 /* Optional: Add space between Contact and CV */
 #menu-bar ul li:nth-last-child(2) {
@@ -89,13 +86,10 @@
   #menu-bar ul li a {
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: center;
     padding: 12px;
     font-size: 16px;
   }
 
-  .cv-button {
-    margin-left: 0;
-    width: 100%;
-  }
+  
 }
